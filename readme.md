@@ -11,16 +11,16 @@
 
 ---
 
-# 📖 Descripción
+# Descripción
 
 Este proyecto consiste en el desarrollo de un **CRUD de Productos** utilizando **PHP**, **MySQL**, **Bootstrap** y el patrón de arquitectura **MVC (Modelo - Vista - Controlador)**.
 
 Fue realizado como parte de la actividad de la materia, implementando las cuatro operaciones básicas sobre una base de datos:
 
-- ✅ Crear
-- ✅ Leer
-- ✅ Actualizar
-- ✅ Eliminar
+- Crear
+- Leer
+- Actualizar
+- Eliminar
 
 ---
 
@@ -37,7 +37,7 @@ Fue realizado como parte de la actividad de la materia, implementando las cuatro
 
 ---
 
-# 🛠 Tecnologías utilizadas
+#  Tecnologías utilizadas
 
 | Tecnología | Uso |
 |------------|-----|
@@ -50,7 +50,7 @@ Fue realizado como parte de la actividad de la materia, implementando las cuatro
 
 ---
 
-# 📂 Estructura del proyecto
+#  Estructura del proyecto
 
 ```text
 IVMact2_t4/
@@ -106,7 +106,7 @@ Campos
 
 ---
 
-# 🔗 Conexión a la base de datos
+#  Conexión a la base de datos
 
 ```php
 <?php
@@ -122,9 +122,9 @@ if($conexion->connect_error){
 
 ---
 
-# 📋 Operaciones CRUD
+#  Operaciones CRUD
 
-## ➕ Crear
+##  Crear
 
 Permite registrar un nuevo producto.
 
@@ -140,7 +140,7 @@ $modelo->insertarProducto(
 
 ---
 
-## 📄 Leer
+## Leer
 
 Obtiene todos los productos almacenados.
 
@@ -150,7 +150,7 @@ $modelo->listarProductos();
 
 ---
 
-## ✏️ Actualizar
+## Actualizar
 
 Permite modificar la información de un producto.
 
@@ -167,7 +167,7 @@ $modelo->actualizarProducto(
 
 ---
 
-## 🗑 Eliminar
+##  Eliminar
 
 Elimina un producto mediante su ID.
 
@@ -177,22 +177,7 @@ $modelo->eliminarProducto($id);
 
 ---
 
-# 🎨 Interfaz
-
-El proyecto utiliza Bootstrap 5 para crear una interfaz moderna.
-
-Incluye:
-
-- 🌸 Colores personalizados.
-- 📋 Tabla responsiva.
-- 🖱 Hover sobre filas.
-- 💖 Tarjetas (Cards).
-- 🎀 Botones personalizados.
-- ✔ Confirmación antes de eliminar.
-
----
-
-# 🚀 Instalación
+#  Instalación
 
 Clonar el repositorio
 
@@ -228,36 +213,23 @@ http://localhost/IVMact2_t4/
 
 ---
 
-# 📸 Capturas
+#  Capturas
 
 Agregar aquí imágenes del proyecto.
 
-### Inicio
+### 🌸Inicio
 
-<img width="900" src="capturas/inicio.png">
+<img width="1366" height="590" alt="image" src="https://github.com/user-attachments/assets/f144827e-17de-4567-9996-523099b98a43" />
 
-### Registrar
 
-<img width="900" src="capturas/registrar.png">
+### 🟩Registrar 
 
-### Editar
+<img width="755" height="607" alt="image" src="https://github.com/user-attachments/assets/8b1c33ef-95ea-475c-b7da-1649ef7993cb" />
 
-<img width="900" src="capturas/editar.png">
 
----
+### 🔵Editar
 
-# 👩‍💻 Autora
+<img width="980" height="573" alt="image" src="https://github.com/user-attachments/assets/14c3da8e-cfbf-4a66-817e-082f4aac52c4" />
 
-**Ivone Montserrat Vargas Vicente**
 
----
 
-# 📚 Materia
-
-Desarrollo Web
-
----
-
-# 📄 Licencia
-
-Proyecto realizado con fines académicos.
